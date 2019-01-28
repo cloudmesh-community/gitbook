@@ -2,7 +2,7 @@
 
 {% api-method method="get" host="https://api.cakes.com" path="/v1/cakes/:id" %}
 {% api-method-summary %}
-Get Cakes
+
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -64,5 +64,13 @@ Could not find a cake matching this query.
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% tabs %}
+{% tab title="First Tab" %}
+test
+{% endtab %}
 
+{% tab title="Second Tab" %}
+test
+{% endtab %}
+{% endtabs %}
 
